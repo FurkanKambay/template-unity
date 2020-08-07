@@ -1,7 +1,8 @@
 * text=auto
 
 .* eol=lf
-*.cs eol=lf
+*.cs eol=lf diff=csharp
+*.md eol=lf diff=markdown
 *.json eol=lf
 *.txt eol=lf
 
