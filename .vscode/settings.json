@@ -1,6 +1,7 @@
 {
     "explorer.excludeGitIgnore": true,
     "files.exclude": {
-        "UIElementsSchema/": true,
+        "**/*.meta": true,
+        "UIElementsSchema/": true
     }
 }
