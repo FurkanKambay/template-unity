@@ -4,12 +4,24 @@
         "**/*.meta": true,
         "UIElementsSchema/": true,
         "Assets/Plugins": true,
+        "FMODAssets/": true
     },
     "files.readonlyInclude": {
-        "**/*.asset": true,
-        "**/*.meta": true,
-        "**/*.prefab": true,
-        "**/*.unity": true,
-        "Packages/packages-lock.json": true
-    }
+        "Packages/packages-lock.json": true,
+        "Assets/Plugins/FMOD": true,
+        "FMODAssets/**": true
+    },
+    "conventionalCommits.scopes": [
+        "art",
+        "audio",
+        "balance",
+        "content",
+        "core",
+        "gameplay",
+        "juice",
+        "tool",
+        "ui"
+    ],
+    "conventionalCommits.gitmoji": false,
+    "conventionalCommits.promptFooter": false
 }
